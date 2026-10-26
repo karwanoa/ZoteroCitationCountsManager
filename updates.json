@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "frlars21@github.com": {
+      "updates": [
+        {
+          "version": "2.3.0",
+          "update_link": "https://github.com/karwanoa/ZoteroCitationCountsManager/releases/download/v2.3.0/zoterocitationcountsmanager-2.3.0-zotero10.xpi",
+          "update_hash": "sha256:9e72f2ab9885389ca79c9bab35c3a145c9e9359050d509d7b55defcf33d976c4",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.0",
+              "strict_max_version": "10.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

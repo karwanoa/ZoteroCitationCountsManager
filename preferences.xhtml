@@ -1,0 +1,52 @@
+<linkset>
+  <html:link rel="localization" href="citation-counts.ftl" />
+</linkset>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      onload="window.ZoteroCitationCounts_Prefs?.init();">
+  <groupbox>
+    <label>
+      <html:h2 data-l10n-id="citationcounts-preferences-pane-autoretrieve-title"></html:h2>
+    </label>
+    <radiogroup
+      id="citationcounts-preference-pane-autoretrieve-radiogroup"
+      preference="extensions.citationcounts.autoretrieve"
+    >
+      <radio
+        id="citationcounts-preferences-pane-autoretrieve-radio-none"
+        value="none"
+        data-l10n-id="citationcounts-preferences-pane-autoretrieve-api-none"
+      />
+      <radio
+        id="citationcounts-preferences-pane-autoretrieve-radio-crossref"
+        value="crossref"
+        label="Crossref"
+      />
+      <radio
+        id="citationcounts-preferences-pane-autoretrieve-radio-inspire"
+        value="inspire"
+        label="INSPIRE-HEP"
+      />
+      <radio
+        id="citationcounts-preferences-pane-autoretrieve-radio-semanticscholar"
+        value="semanticscholar"
+        label="Semantic Scholar"
+      />
+      <radio
+        id="citationcounts-preferences-pane-autoretrieve-radio-openalex"
+        value="openalex"
+        label="OpenAlex"
+      />
+    </radiogroup>
+  </groupbox>
+  <groupbox>
+    <label>
+      <html:h2 data-l10n-id="citationcounts-preferences-pane-missing-doi-title"></html:h2>
+    </label>
+    <checkbox
+      id="citationcounts-preferences-pane-use-title-fallback"
+      preference="extensions.citationcounts.useTitleFallback"
+      data-l10n-id="citationcounts-preferences-pane-missing-doi-strategy"
+    />
+  </groupbox>
+</vbox>

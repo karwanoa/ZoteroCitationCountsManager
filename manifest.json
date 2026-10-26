@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Citation Counts Manager",
+  "version": "2.3.0",
+  "description": "Enhanced Citation Counts Manager for Zotero (7.0 – 10.*)",
+  "author": "FrLars21 & Community Contributors",
+  "homepage_url": "https://github.com/karwanoa/ZoteroCitationCountsManager",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "frlars21@github.com",
+      "update_url": "https://raw.githubusercontent.com/karwanoa/ZoteroCitationCountsManager/main/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
