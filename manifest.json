@@ -3,7 +3,7 @@
   "name": "Zotero Citation Counts Manager",
   "version": "2.3.0",
   "description": "Enhanced Citation Counts Manager for Zotero (7.0 – 10.*)",
-  "author": "FrLars21 & Community Contributors",
+  "author": "karwanoa & Contributors",
   "homepage_url": "https://github.com/karwanoa/ZoteroCitationCountsManager",
   "icons": {
     "48": "icons/icon.svg",

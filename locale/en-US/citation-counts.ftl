@@ -34,6 +34,8 @@ citationcounts-preferences-pane-autoretrieve-api-none =
 citationcounts-preferences-pane-missing-doi-title = Fallback strategy when DOI is missing
 citationcounts-preferences-pane-missing-doi-strategy =
     .label = Search Crossref by item title when DOI and arXiv ID are unavailable
+citationcounts-preferences-pane-about-title = Plugin Repository & Updates
+citationcounts-preferences-pane-repo-label = Official Zotero 10 GitHub Repository:
 
 ## Misc
 citationcounts-internal-error = Internal error
